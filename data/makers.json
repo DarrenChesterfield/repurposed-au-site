@@ -1,4 +1,20 @@
 [
-  {"id":"mia","name":"Mia","bio":"Learns propagation and basic business skills through the program.","suburb":"Carlton","price_aud":12,"stripe_payment_link":"https://buy.stripe.com/test_XXXX_mia","photo":"/maker-mia.jpg"},
-  {"id":"jay","name":"Jay","bio":"Enjoys upcycling and caring for succulents.","suburb":"North Melbourne","price_aud":15,"stripe_payment_link":"https://buy.stripe.com/test_YYYY_jay","photo":"/maker-jay.jpg"}
+  {
+    "id": "mia",
+    "name": "Mia",
+    "bio": "Learns propagation and basic business skills through the program.",
+    "suburb": "Carlton",
+    "price_aud": 12,
+    "stripe_payment_link": "#",
+    "photo": "/maker-mia.jpg"
+  },
+  {
+    "id": "jay",
+    "name": "Jay",
+    "bio": "Enjoys upcycling and caring for succulents.",
+    "suburb": "North Melbourne",
+    "price_aud": 15,
+    "stripe_payment_link": "#",
+    "photo": "/maker-jay.jpg"
+  }
 ]
