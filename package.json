@@ -1,6 +1,7 @@
 {
   "name": "repurposed-au-site",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,9 @@
   "dependencies": {
     "next": "14.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
+    "react-dom": "18.2.0",
+
+    // Ensure Next's type check can run without error
     "typescript": "^5.4.0",
     "@types/react": "^18.2.0",
     "@types/node": "^20.0.0"
