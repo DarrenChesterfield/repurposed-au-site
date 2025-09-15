@@ -5,14 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "npm i typescript @types/react @types/node"
   },
   "dependencies": {
     "next": "14.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-
-    // Ensure Next's type check can run without error
     "typescript": "^5.4.0",
     "@types/react": "^18.2.0",
     "@types/node": "^20.0.0"
