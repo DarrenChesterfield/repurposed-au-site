@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function MakersIndex() {
-  // Placeholder maker profiles
+  // Placeholder maker profiles — adjust as needed later
   const makers = [
     {
       slug: "sample-maker",
@@ -28,7 +28,10 @@ export default function MakersIndex() {
 
       <ul className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {makers.map((m) => (
-          <li key={m.slug} className="border rounded-2xl p-4 bg-white shadow-sm hover:shadow-md transition">
+          <li
+            key={m.slug}
+            className="border rounded-2xl p-4 bg-white shadow-sm hover:shadow-md transition"
+          >
             <div className="aspect-video bg-zinc-100 rounded-xl mb-3" />
             <h2 className="text-lg font-semibold">{m.name}</h2>
             <p className="text-sm text-zinc-600">{m.blurb}</p>
