@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "prebuild": "npm i typescript @types/react @types/node --no-audit --no-fund || true",
-    "build": "next build",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
