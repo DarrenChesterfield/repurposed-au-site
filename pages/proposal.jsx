@@ -1,6 +1,6 @@
 // pages/proposal.jsx
-import PageShell from "@/components/layout/PageShell";
-import Section from "@/components/ui/Section";
+import PageShell from "../components/layout/PageShell";
+import Section from "../components/ui/Section";
 
 export default function Proposal() {
   const TOC = [
